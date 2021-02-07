@@ -2,7 +2,7 @@
 
 ## Languages
 
--HTML5 & SASS
+-HTML5 & CSS
 
 ## Description
 
