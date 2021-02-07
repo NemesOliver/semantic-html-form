@@ -23,6 +23,18 @@ header {
 .order-form-container {
   height: 90vh;
   width: 100%;
-  padding-left: 5%;
+  padding: 2% 5% 0 5%;
+}
+
+fieldset {
+  padding: 2.5rem 2rem 0 2.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  margin-bottom: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
