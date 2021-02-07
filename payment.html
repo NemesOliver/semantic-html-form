@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Semantic HTML form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Billing information</h1>
+    </header>
+    <main>
+      <div class="order-form-container">
+        <form action="">
+          <fieldset>
+            <legend>Payment options</legend>
+            <ul>
+              <li>
+                <label for="frmNameCC"
+                  >Name on card:
+                  <input
+                    name="ccname"
+                    id="frmNameCC"
+                    required
+                    placeholder="Full Name"
+                    autocomplete="cc-name"
+                /></label>
+              </li>
+              <li>
+                <label for="frmCCNum"
+                  >Card Number:
+                  <input
+                    name="cardnumber"
+                    id="frmCCNum"
+                    required
+                    autocomplete="cc-number"
+                  />
+                </label>
+              </li>
+              <li>
+                <label for="frmCCCVC"
+                  >CVC:
+                  <input
+                    name="cvc"
+                    id="frmCCCVC"
+                    required
+                    autocomplete="cc-csc"
+                  />
+                </label>
+              </li>
+              <li>
+                <label for="frmCCExp"
+                  >Expiry:
+                  <input
+                    type="date"
+                    name="cc-exp"
+                    id="frmCCExp"
+                    required
+                    placeholder="MM-YYYY"
+                    autocomplete="cc-exp"
+                  />
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <input class="btn-next" type="submit" value="next" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
