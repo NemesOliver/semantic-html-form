@@ -19,4 +19,10 @@ header {
   padding: 2rem 4rem;
   border-bottom: 2px solid black;
 }
+
+.order-form-container {
+  height: 90vh;
+  width: 100%;
+  padding-left: 5%;
+}
 /*# sourceMappingURL=style.css.map */
