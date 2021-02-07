@@ -26,8 +26,9 @@ header {
   padding: 2% 5% 0 5%;
 }
 
-.btn {
+.btn-next {
   padding: 0.3rem 8rem;
+  float: right;
 }
 
 fieldset {
@@ -37,6 +38,8 @@ fieldset {
 
 ul {
   list-style: none;
+  text-align: right;
+  width: 25%;
 }
 
 input {

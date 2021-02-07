@@ -9,11 +9,12 @@
   </head>
   <body>
     <header>
-      <h1>Order form</h1>
+      <h1>Billing information</h1>
     </header>
     <main>
       <div class="order-form-container">
         <form action="">
+          <!--name-->
           <fieldset>
             <legend>Full name</legend>
             <ul>
@@ -36,32 +37,46 @@
               </li>
             </ul>
           </fieldset>
+          <!--name-->
+          <!--email-->
           <fieldset>
             <legend>Email</legend>
-            <label for="email">
-              Email address:
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="myname@example.com"
-                required
-              />
-            </label>
+            <ul>
+              <li>
+                <label for="email">
+                  Email address:
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="myname@example.com"
+                    required
+                  />
+                </label>
+              </li>
+            </ul>
           </fieldset>
+          <!--email-->
+          <!--contact number-->
           <fieldset>
             <legend>Contact number</legend>
-            <label for="phone-number">
-              Contact number:
-              <input
-                type="tel"
-                name="phone-number"
-                id="phone-number"
-                placeholder="xxxxx-xxx-xxx"
-                required
-              />
-            </label>
+            <ul>
+              <li>
+                <label for="phone-number">
+                  Contact number:
+                  <input
+                    type="tel"
+                    name="phone-number"
+                    id="phone-number"
+                    placeholder="xxxxx-xxx-xxx"
+                    required
+                  />
+                </label>
+              </li>
+            </ul>
           </fieldset>
+          <!--contact number-->
+          <!--billing info-->
           <fieldset>
             <legend>Billing information</legend>
             <ul>
@@ -99,12 +114,14 @@
               <li>
                 <label for="country">
                   Country:
-                  <input type="text" name="country" id="country" required />
-                </label>
+                  <input type="text" name="country" id="country" required
+                /></label>
               </li>
             </ul>
           </fieldset>
-          <input class="btn" type="submit" value="Next" />
+          <!--billing info-->
+          <!--submit button-->
+          <input class="btn-next" type="submit" value="Next" />
         </form>
       </div>
     </main>
