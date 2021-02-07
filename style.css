@@ -26,6 +26,10 @@ header {
   padding: 2% 5% 0 5%;
 }
 
+.btn {
+  padding: 0.3rem 8rem;
+}
+
 fieldset {
   padding: 2.5rem 2rem 0 2.5rem;
   margin-bottom: 3rem;
